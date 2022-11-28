@@ -54,7 +54,7 @@ function renderLicenseSection(license) {
   } else {
     return `## License:
     
-    ${license}
+${license}
     `;
   }
 }
@@ -71,46 +71,46 @@ function renderLicenseTable(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
 
-  ## Description
-  
-  ${data.description}
+## Description
 
-  ## Table of Contents
+${data.description}
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  ${renderLicenseTable(data.license)}
+## Table of Contents
 
-  ## Installation
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+${renderLicenseTable(data.license)}
 
-  ${data.installation}
+## Installation
 
-  ## Usage
+${data.installation}
 
-  ${data.usage}
+## Usage
 
-  ## Contributing
+${data.usage}
 
-  ${data.contributing}
+## Contributing
 
-  ## Tests
+${data.contributing}
 
-  ${data.tests}
+## Tests
 
-  ## Questions
+${data.tests}
 
-  Feel free to submit pull requests at the repo or send me an email with any questions you have.
+## Questions
 
-  GitHub: https://github.com/${data.username}
+Feel free to submit pull requests at the repo or send me an email with any questions you have.
 
-  Email: ${data.email}
+GitHub: https://github.com/${data.username}
 
-  ${renderLicenseSection(data.license)}
+Email: ${data.email}
+
+${renderLicenseSection(data.license)}
 `;
 }
 
