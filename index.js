@@ -17,7 +17,7 @@ const questions = [
   },
   {
     name: 'installation',
-    message: 'If applicable, enter the installation instructions for your project.',
+    message: 'Enter the installation instructions for your project.',
     type: 'input'
   },
   {
@@ -27,12 +27,12 @@ const questions = [
   },
   {
     name: 'contributing',
-    message: 'If applicable, enter any contribution guidelines for your project.',
+    message: 'Enter any contribution guidelines for your project.',
     type: 'input'
   },
   {
     name: 'tests',
-    message: 'If applicable, enter any test instructions for your project.',
+    message: 'Enter any test instructions for your project.',
     type: 'input'
   },
   {
