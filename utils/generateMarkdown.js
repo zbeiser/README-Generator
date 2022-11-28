@@ -73,10 +73,10 @@ function generateMarkdown(data) {
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+  - [License](#license)
 
   ## Installation
 
@@ -94,7 +94,7 @@ function generateMarkdown(data) {
 
   ${data.tests}
 
-  ##Questions
+  ## Questions
 
   Feel free to submit pull requests at the repo or send me an email with any questions you have.
 
