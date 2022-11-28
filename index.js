@@ -26,12 +26,12 @@ const questions = [
     type: 'input'
   },
   {
-    name: 'contribution',
+    name: 'contributing',
     message: 'If applicable, enter any contribution guidelines for your project.',
     type: 'input'
   },
   {
-    name: 'test',
+    name: 'tests',
     message: 'If applicable, enter any test instructions for your project.',
     type: 'input'
   },
@@ -43,7 +43,7 @@ const questions = [
     'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense']
   },
   {
-    name: 'github',
+    name: 'username',
     message: 'Enter your GitHub username.',
     type: 'input'
   },
